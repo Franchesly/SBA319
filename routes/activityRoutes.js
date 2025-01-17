@@ -2,6 +2,16 @@ const express = require("express");
 const router = express.Router();
 const Activity = require("../models/activity.js");
 
+// deleting all
+router.delete("/activity", async (req, res) => {
+  try {
+    const deleteActivity = await Activity.deleteMany();
+    res.json(deleteActivity);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 //Get all activity
 router.get("/activity/", async (req, res) => {
   try {

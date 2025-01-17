@@ -2,6 +2,16 @@ const express = require("express");
 const router = express.Router();
 const Destination = require("../models/destination.js");
 
+//Delete all
+router.delete("/destination", async (req, res) => {
+  try {
+    const deleteDestination = await Destination.deleteMany();
+    res.json(deleteDestination);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 //Get all users
 router.get("/destination/", async (req, res) => {
   try {

@@ -1,27 +1,152 @@
 [
-    { "name": "Eiffel Tower Tour", "description": "Guided tour to explore the Eiffel Tower.", "date": "2024-06-15T00:00:00Z", "time": "10:00 AM", "destinationId": "ObjectId1" },
-    { "name": "Great Wall Hike", "description": "Day-long hike on the Great Wall of China.", "date": "2024-07-10T00:00:00Z", "time": "8:00 AM", "destinationId": "ObjectId2" },
-    { "name": "Grand Canyon Photography", "description": "A photo tour of the Grand Canyon.", "date": "2024-05-20T00:00:00Z", "time": "6:30 PM", "destinationId": "ObjectId3" },
-    { "name": "Pyramids of Giza Camel Ride", "description": "Experience camel rides around the Pyramids.", "date": "2024-04-12T00:00:00Z", "time": "4:00 PM", "destinationId": "ObjectId4" },
-    { "name": "Machu Picchu Sunrise Hike", "description": "Morning hike to see the sunrise at Machu Picchu.", "date": "2024-08-22T00:00:00Z", "time": "5:30 AM", "destinationId": "ObjectId5" },
-    { "name": "Sydney Opera House Tour", "description": "Explore the famous opera house.", "date": "2024-03-10T00:00:00Z", "time": "2:00 PM", "destinationId": "ObjectId6" },
-    { "name": "Taj Mahal Sunset View", "description": "Watch the sunset at the Taj Mahal.", "date": "2024-09-18T00:00:00Z", "time": "5:30 PM", "destinationId": "ObjectId7" },
-    { "name": "Statue of Liberty Visit", "description": "A boat tour to the Statue of Liberty.", "date": "2024-05-05T00:00:00Z", "time": "11:00 AM", "destinationId": "ObjectId8" },
-    { "name": "Santorini Wine Tasting", "description": "Enjoy wine tasting in Santorini.", "date": "2024-06-20T00:00:00Z", "time": "6:00 PM", "destinationId": "ObjectId9" },
-    { "name": "Christ the Redeemer Hike", "description": "Hike to the top of Mount Corcovado.", "date": "2024-10-04T00:00:00Z", "time": "7:00 AM", "destinationId": "ObjectId10" },
-    { "name": "Colosseum History Tour", "description": "Learn about the history of the Colosseum.", "date": "2024-04-25T00:00:00Z", "time": "3:00 PM", "destinationId": "ObjectId11" },
-    { "name": "Banff Lake Canoeing", "description": "Canoeing in Lake Louise.", "date": "2024-08-01T00:00:00Z", "time": "9:00 AM", "destinationId": "ObjectId12" },
-    { "name": "Angkor Wat Sunrise Tour", "description": "Catch the sunrise at Angkor Wat.", "date": "2024-03-18T00:00:00Z", "time": "5:00 AM", "destinationId": "ObjectId13" },
-    { "name": "Table Mountain Cableway", "description": "Ride the cableway to the top of Table Mountain.", "date": "2024-02-28T00:00:00Z", "time": "1:00 PM", "destinationId": "ObjectId14" },
-    { "name": "Mount Fuji Climbing", "description": "Climb Mount Fuji with guides.", "date": "2024-07-06T00:00:00Z", "time": "10:00 AM", "destinationId": "ObjectId15" },
-    { "name": "Petra Night Walk", "description": "Spectacular night-time tour of Petra.", "date": "2024-05-14T00:00:00Z", "time": "8:00 PM", "destinationId": "ObjectId16" },
-    { "name": "Niagara Falls Boat Tour", "description": "Take a boat tour to experience Niagara Falls.", "date": "2024-06-10T00:00:00Z", "time": "12:30 PM", "destinationId": "ObjectId17" },
-    { "name": "Alhambra Architecture Walk", "description": "Admire the intricate architecture of Alhambra.", "date": "2024-09-08T00:00:00Z", "time": "5:00 PM", "destinationId": "ObjectId18" },
-    { "name": "Hagia Sophia Guided Tour", "description": "Explore Hagia Sophia with a historian.", "date": "2024-03-15T00:00:00Z", "time": "11:30 AM", "destinationId": "ObjectId19" },
-    { "name": "Buckingham Palace Changing of the Guard", "description": "Experience the change of guard ceremony.", "date": "2024-04-05T00:00:00Z", "time": "10:45 AM", "destinationId": "ObjectId20" },
-    { "name": "Yellowstone Wildlife Safari", "description": "Go on a wildlife safari in Yellowstone.", "date": "2024-07-20T00:00:00Z", "time": "6:30 PM", "destinationId": "ObjectId21" },
-    { "name": "Golden Gate Bridge Bike Tour", "description": "Ride a bike across the Golden Gate Bridge.", "date": "2024-05-23T00:00:00Z", "time": "9:30 AM", "destinationId": "ObjectId22" },
-    { "name": "Prague Castle Tour", "description": "Detailed walkthrough of Prague Castle.", "date": "2024-08-17T00:00:00Z", "time": "3:30 PM", "destinationId": "ObjectId23" },
-    { "name": "Burj Khalifa Observation Deck Visit", "description": "Enjoy the view from the world's tallest building.", "date": "2024-06-01T00:00:00Z", "time": "1:00 PM", "destinationId": "ObjectId24" },
-    { "name": "Victoria Falls Helicopter Ride", "description": "Get a bird's-eye view of Victoria Falls.", "date": "2024-10-10T00:00:00Z", "time": "4:00 PM", "destinationId": "ObjectId25" }
-  ]
+  {
+    "name": "Eiffel Tower",
+    "location": "Paris, France",
+    "description": "Iconic landmark of France.",
+    "itineraryId": "ObjectId1"
+  },
+  {
+    "name": "Great Wall of China",
+    "location": "Beijing, China",
+    "description": "Ancient wall spanning thousands of kilometers.",
+    "itineraryId": "ObjectId2"
+  },
+  {
+    "name": "Grand Canyon",
+    "location": "Arizona, USA",
+    "description": "Breathtaking natural wonder and canyon.",
+    "itineraryId": "ObjectId3"
+  },
+  {
+    "name": "Pyramids of Giza",
+    "location": "Giza, Egypt",
+    "description": "Ancient Egyptian pyramids and great history.",
+    "itineraryId": "ObjectId4"
+  },
+  {
+    "name": "Machu Picchu",
+    "location": "Cusco Region, Peru",
+    "description": "Historic Incan site and UNESCO heritage site.",
+    "itineraryId": "ObjectId5"
+  },
+  {
+    "name": "Sydney Opera House",
+    "location": "Sydney, Australia",
+    "description": "Architectural marvel and performing arts venue.",
+    "itineraryId": "ObjectId6"
+  },
+  {
+    "name": "Taj Mahal",
+    "location": "Agra, India",
+    "description": "A white marble mausoleum, symbol of love.",
+    "itineraryId": "ObjectId7"
+  },
+  {
+    "name": "Statue of Liberty",
+    "location": "New York, USA",
+    "description": "Symbol of freedom and democracy.",
+    "itineraryId": "ObjectId8"
+  },
+  {
+    "name": "Santorini",
+    "location": "Aegean Sea, Greece",
+    "description": "Beautiful island with whitewashed houses.",
+    "itineraryId": "ObjectId9"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "location": "Rio de Janeiro, Brazil",
+    "description": "Statue of Jesus Christ atop Mount Corcovado.",
+    "itineraryId": "ObjectId10"
+  },
+  {
+    "name": "Colosseum",
+    "location": "Rome, Italy",
+    "description": "Ancient Roman amphitheater.",
+    "itineraryId": "ObjectId11"
+  },
+  {
+    "name": "Banff National Park",
+    "location": "Alberta, Canada",
+    "description": "Beautiful national park with turquoise lakes.",
+    "itineraryId": "ObjectId12"
+  },
+  {
+    "name": "Angkor Wat",
+    "location": "Siem Reap, Cambodia",
+    "description": "Largest religious structure in the world.",
+    "itineraryId": "ObjectId13"
+  },
+  {
+    "name": "Table Mountain",
+    "location": "Cape Town, South Africa",
+    "description": "Flat-topped mountain and natural landmark.",
+    "itineraryId": "ObjectId14"
+  },
+  {
+    "name": "Mount Fuji",
+    "location": "Honshu Island, Japan",
+    "description": "Famous volcanic mountain in Japan.",
+    "itineraryId": "ObjectId15"
+  },
+  {
+    "name": "Petra",
+    "location": "Ma'an Governorate, Jordan",
+    "description": "Historic archaeological city.",
+    "itineraryId": "ObjectId16"
+  },
+  {
+    "name": "Niagara Falls",
+    "location": "Ontario/New York, USA/Canada",
+    "description": "Majestic waterfalls on the border of USA and Canada.",
+    "itineraryId": "ObjectId17"
+  },
+  {
+    "name": "Alhambra",
+    "location": "Granada, Spain",
+    "description": "Palace and fortress complex.",
+    "itineraryId": "ObjectId18"
+  },
+  {
+    "name": "Hagia Sophia",
+    "location": "Istanbul, Turkey",
+    "description": "Historical mosque and museum.",
+    "itineraryId": "ObjectId19"
+  },
+  {
+    "name": "Buckingham Palace",
+    "location": "London, UK",
+    "description": "Residence of the British monarch.",
+    "itineraryId": "ObjectId20"
+  },
+  {
+    "name": "Yellowstone National Park",
+    "location": "Wyoming, USA",
+    "description": "World's first national park.",
+    "itineraryId": "ObjectId21"
+  },
+  {
+    "name": "Golden Gate Bridge",
+    "location": "San Francisco, USA",
+    "description": "Famous red suspension bridge in the USA.",
+    "itineraryId": "ObjectId22"
+  },
+  {
+    "name": "Prague Castle",
+    "location": "Prague, Czech Republic",
+    "description": "Largest ancient castle in the world.",
+    "itineraryId": "ObjectId23"
+  },
+  {
+    "name": "Burj Khalifa",
+    "location": "Dubai, UAE",
+    "description": "Tallest building in the world.",
+    "itineraryId": "ObjectId24"
+  },
+  {
+    "name": "Victoria Falls",
+    "location": "Zambezi River, Zambia/Zimbabwe",
+    "description": "Gigantic and stunning waterfalls.",
+    "itineraryId": "ObjectId25"
+  }
+]

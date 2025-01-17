@@ -2,6 +2,16 @@ const express = require("express");
 const router = express.Router();
 const User = require("../models/user.js");
 
+
+router.delete("/user", async (req, res) => {
+  try {
+    const deleteUser = await User.deleteMany();
+    res.json(deleteUser);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 //Get all users
 router.get("/user/", async (req, res) => {
   try {
@@ -35,7 +45,7 @@ router.get("/user/:id", async (req, res) => {
 
 router.put("/user/:id", async (req, res) => {
   try {
-    const uptdatedUser = await User.findByIdAndUpdate(req.params.id, req.body);
+    const updatedUser = await User.findByIdAndUpdate(req.params.id, req.body);
     res.json(updatedUser);
   } catch (error) {
     res.status(500).json({ error: error.message });

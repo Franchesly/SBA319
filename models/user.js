@@ -13,4 +13,7 @@ userSchema.pre('save', async function (next) {
   next();
 });
 
-module.exports = mongoose.model('User', userSchema);
+// Avoid recompiling the model
+const User = mongoose.models.User || mongoose.model('User', userSchema);
+
+module.exports = User;

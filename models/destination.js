@@ -4,7 +4,10 @@ const destinationSchema = new mongoose.Schema({
   name: { type: String, required: true },
   location: { type: String, required: true },
   description: { type: String },
-  itineraryId: { type: mongoose.Schema.Types.ObjectId, ref: 'Itinerary', required: true },
 });
 
-module.exports = mongoose.model('Destination', destinationSchema);
+
+// Avoid recompiling the model
+const Destination = mongoose.models.Destination || mongoose.model('Destination', destinationSchema);
+
+module.exports = Destination;

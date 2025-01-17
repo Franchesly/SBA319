@@ -1,5 +1,5 @@
 //
-const fs = require("fs").promises;
+const fs = require("fs");
 const path = require("path");
 const { fileURLToPath } = require("url");
 
@@ -26,7 +26,6 @@ const readJsonData = async (filePath) => {
 };
 
 const userSeed = async () => {
-async () => {
   try {
     const exists = await User.findOne(); // Check if data already exists
     if (exists) {
