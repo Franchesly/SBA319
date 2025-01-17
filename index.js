@@ -13,7 +13,11 @@ app.use(bodyParser.json());
 
 // Routes
 app.use('/api/users', require('./routes/userRoutes'));
-// Add other routes for itineraries, destinations, and activities here
+//homeroute
+app.get('/', (req, res)=>{
+    res.send('Home Page!')
+})
+// Add other routes for itineraries, destinations, and activities 
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
